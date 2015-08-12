@@ -1,0 +1,4 @@
+.fscache
+*.exe
+slices/*.jpg
+*.flags
