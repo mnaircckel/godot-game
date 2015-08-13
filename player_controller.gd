@@ -18,7 +18,6 @@ func calc_movement(delta):
 	move(movement)
 
 func _ready():
-	raise()
 	set_fixed_process(true)
 
 func _fixed_process(delta):

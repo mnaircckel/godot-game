@@ -21,4 +21,4 @@ func _ready():
 func _process(delta):
 	current_ammmo = get_tree().get_root().get_node("World/Player/Cannons").get_ammo()
 	max_ammo = get_tree().get_root().get_node("World/Player/Cannons").get_max_ammo()
-	get_node("Energy").set_scale(Vector2(current_ammmo/max_ammo,1.0))
+	get_node("Energy").set_scale(Vector2(1.25*current_ammmo/max_ammo,1.0))
